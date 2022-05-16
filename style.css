@@ -1,0 +1,75 @@
+body {
+    background-color: #6C4A4A;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    padding: 0px  20px;
+    margin: 10px 70px;
+}
+
+#picture {
+    width: 600px;
+    height: 500px;
+    flex: 2;
+    
+}
+
+.btn {
+    font-size: 30px;
+    padding: 15px;
+    background-color: #C89595;
+    border: none;
+    font-family: 'Zen Antique', serif;
+    color: #6C4A4A;
+}
+
+h1 {
+    font-family: 'Zen Antique', serif;
+    font-size: 50px;
+    color: #DDBEBE;
+}
+
+
+@media all and ( max-width: 800px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .container {
+        display: flex;
+        padding: 0px  5px;
+        margin: 0px 10px;
+    }
+
+    .btn {
+        padding: 0px;
+    }
+}
+
+@media all and ( max-width: 500px) {
+    h1 {
+        font-size: 25px;
+    } 
+
+    .container {
+        display: flex;
+        padding: 0px  5px;
+        margin: 0px 10px;
+    }
+
+    #picture {
+        width: 320px;
+        height: 200px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 0px;
+    }
+}
